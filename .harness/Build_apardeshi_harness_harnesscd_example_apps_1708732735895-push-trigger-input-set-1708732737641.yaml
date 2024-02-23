@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_apardeshi_harness_harnesscd_example_apps_1708732735895-push-trigger-input-set
+  identifier: Build_apardeshi_harness_harnesscd_example_apps_1708732735895pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_apardeshi_harness_harnesscd_example_apps_1708732735895
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
