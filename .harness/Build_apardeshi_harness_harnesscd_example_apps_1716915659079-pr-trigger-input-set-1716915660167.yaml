@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_apardeshi_harness_harnesscd_example_apps_1716915659079-pr-trigger-input-set
+  identifier: Build_apardeshi_harness_harnesscd_example_apps_1716915659079prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_apardeshi_harness_harnesscd_example_apps_1716915659079
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
